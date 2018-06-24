@@ -1,0 +1,25 @@
+{
+ :log-file "amazing-larry.log"
+ :log-level :warn
+
+ ;; Paths that do not require authn
+ :whitelisted-resources ["^/healthcheck$" "^/pickles/.+$"]
+
+ ;; Some modules benefit from a notion of the "local" time zone
+ :local-tz "America/New_York"
+
+ ;; TODO: Move this, and pickling, to /usr/local, or split out of
+ ;; Birchbot entirely.
+ :http-public-dir "/home/jereme/public"
+
+ ;;
+ ;; PaaS - pickling as a service
+ ;;
+ :pickle-img-cmd "/home/jereme/pickle/pickle_image.sh"
+ :pickle-output-dir "/home/jereme/public/pickles"
+ ;; :pickle-url-base "http://birchbot.team.birchbox.com:3000/pickles"
+ :pickle-url-base "https://proxy0.zoion.net/pickles"
+
+ ;; Dir of IRC indexes, that Lewis generated from Birchbot #dev
+ ;; channel logs.
+ :irc-index-dir "irc_index"}
