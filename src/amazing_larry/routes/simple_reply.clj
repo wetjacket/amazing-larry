@@ -14,6 +14,7 @@
    (text-match #"(?i)^!hedge"    (img-reply ":evergreen_tree:" hedge-img))
    (text-match #"(?i)^!rejoice"  (img-reply "Rejoicing!" dancing-becky-img))
    (text-match #"(?i)^!wtf"      (img-reply wtf-emojis pancake-bunny-img))
+   (text-match #"(?i)^!whatfuck" (img-reply ":grimacing:" whatfuck-img))
    (text-match konami-code       birchbox-logo-ascii)
 
    (text-match #"(?i)^!milhouse"

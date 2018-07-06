@@ -16,6 +16,8 @@
 
 (def konami-code "^^vv<><>bastart")
 
+(def whatfuck-img "https://i.imgur.com/NKulE5i.gif")
+
 ;;    MmMmM
 ;;   c-O.O-ↄ
 ;;      -
