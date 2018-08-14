@@ -11,3 +11,6 @@ pom.xml.asc
 *.org
 *.log
 env_setup
+/pickling_fs_bits/*
+db/*
+irc_index/*

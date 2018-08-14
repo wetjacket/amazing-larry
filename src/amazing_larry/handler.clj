@@ -37,7 +37,7 @@
 
 (defn init
   []
-  (info "DEBUG http-public-dir" (:http-public-dir conf))
+  ;; (info "DEBUG http-public-dir" (:http-public-dir conf))
   (util/init-timbre (:log-file conf))
   (go-loop []
     (let [msg (<! slack-events-c)
@@ -54,7 +54,7 @@
       (wrap-json-response)
       (wrap-slack-authn (:slack-vrfy-tok conf) (:whitelisted-resources conf))
       (wrap-json-body {:keywords? true})
-      (wrap-file (:http-public-dir conf))
+      ;; (wrap-file (:http-public-dir conf))
       (wrap-content-type)
       (wrap-not-modified)
       (wrap-defaults api-defaults)))
