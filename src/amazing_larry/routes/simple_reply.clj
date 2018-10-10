@@ -11,6 +11,7 @@
    (text-match #"(?i)^!bntj"     "Ben's Not That Jazzed.")
    (text-match #"(?i)^!womp"     ":trumpet::trumpet: http://wompwompwomp.com")
    (text-match #"(?i)^!fixed"    "It's Fixed In Replatform! :tada::rainbow:")
+   (text-match #"(?i)^!fuckit"   "https://local.theonion.com/man-says-fuck-it-eats-lunch-at-10-58-a-m-1819574888")
    (text-match #"(?i)^!hedge"    (img-reply ":evergreen_tree:" hedge-img))
    (text-match #"(?i)^!rejoice"  (img-reply "Rejoicing!" dancing-becky-img))
    (text-match #"(?i)^!wtf"      (img-reply wtf-emojis pancake-bunny-img))
