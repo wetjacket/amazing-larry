@@ -7,16 +7,17 @@
 ;; many, many years.
 
 (def routes
-  [(text-match #"(?i)^!snap"     "PUZZLE TIME.")
-   (text-match #"(?i)^!bntj"     "Ben's Not That Jazzed.")
-   (text-match #"(?i)^!womp"     ":trumpet::trumpet: http://wompwompwomp.com")
-   (text-match #"(?i)^!fixed"    "It's Fixed In Replatform! :tada::rainbow:")
-   (text-match #"(?i)^!fuckit"   "https://local.theonion.com/man-says-fuck-it-eats-lunch-at-10-58-a-m-1819574888")
-   (text-match #"(?i)^!hedge"    (img-reply ":evergreen_tree:" hedge-img))
-   (text-match #"(?i)^!rejoice"  (img-reply "Rejoicing!" dancing-becky-img))
-   (text-match #"(?i)^!wtf"      (img-reply wtf-emojis pancake-bunny-img))
-   (text-match #"(?i)^!whatfuck" (img-reply ":grimacing:" whatfuck-img))
-   (text-match konami-code       birchbox-logo-ascii)
+  [(text-match #"(?i)^!snap"      "PUZZLE TIME.")
+   (text-match #"(?i)^!bntj"      "Ben's Not That Jazzed.")
+   (text-match #"(?i)^!womp"      ":trumpet::trumpet: http://wompwompwomp.com")
+   (text-match #"(?i)^!fixed"     "It's Fixed In Replatform! :tada::rainbow:")
+   (text-match #"(?i)^!fuckit"    "https://local.theonion.com/man-says-fuck-it-eats-lunch-at-10-58-a-m-1819574888")
+   (text-match #"(?i)^!ponderous" "https://www.youtube.com/watch?v=rV7WF5VVwuo")
+   (text-match #"(?i)^!hedge"     (img-reply ":evergreen_tree:" hedge-img))
+   (text-match #"(?i)^!rejoice"   (img-reply "Rejoicing!" dancing-becky-img))
+   (text-match #"(?i)^!wtf"       (img-reply wtf-emojis pancake-bunny-img))
+   (text-match #"(?i)^!whatfuck"  (img-reply ":grimacing:" whatfuck-img))
+   (text-match konami-code        birchbox-logo-ascii)
 
    (text-match #"(?i)^!milhouse"
                (img-reply "*MILHOUSE!*" (util/get-rand-elt milhausen)))
