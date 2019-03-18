@@ -17,6 +17,7 @@
    (text-match #"(?i)^!rejoice"   (img-reply "Rejoicing!" dancing-becky-img))
    (text-match #"(?i)^!wtf"       (img-reply wtf-emojis pancake-bunny-img))
    (text-match #"(?i)^!whatfuck"  (img-reply ":grimacing:" whatfuck-img))
+   (text-match #"(?i)^!cough"     (img-reply ":face_with_rolling_eyes:" cough-img))
    (text-match konami-code        birchbox-logo-ascii)
 
    (text-match #"(?i)^!milhouse"

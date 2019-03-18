@@ -17,6 +17,7 @@
 (def konami-code "^^vv<><>bastart")
 
 (def whatfuck-img "https://i.imgur.com/NKulE5i.gif")
+(def cough-img "https://media.giphy.com/media/2wTBgxQIxHDfY0Qzof/giphy.gif")
 
 ;;    MmMmM
 ;;   c-O.O-ↄ
